@@ -1,0 +1,22 @@
+21
+qqq 13690
+qqq 6690
+qqq4 5560
+qqqq 3730
+qqq 3300
+qqqq 2940
+qq 2670
+qqq 2390
+qqq 2060
+qqq 1480
+qqq 1060
+qq 730
+qqq 150
+qq 120
+qqq 110
+qq 110
+] 60
+qqq 40
+qqq 30
+qqq4 20
+qqq 6

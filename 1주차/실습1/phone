@@ -1,0 +1,28 @@
+#error_check
+error_check () {
+        if [ -z $str ]
+        then
+                echo "Usage: phone searchfor [...searchfor]"
+                echo "(You didn't tell me what you want to search for.)"
+                exit 0
+  
+        fi
+}
+
+str="$1"
+
+error_check 
+
+for str_2 in ${@:2}
+do
+str="$str|$str_2"
+done
+
+str_3="egrep '$str' mydata"
+
+eval "$str_3|awk -f display.awk"
+
+exit 0
+
+
+
